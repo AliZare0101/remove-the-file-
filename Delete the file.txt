@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a;
+
+	a = remove("Address of the desired file");
+
+	if(a == 0)
+	{
+		printf("\nFile deleted successfully");
+	}
+	else
+	{
+		printf("\nThe file could not be deleted");
+	}
+	return 0;
+}
