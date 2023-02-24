@@ -5,7 +5,7 @@ int main()
 {
 	int a;
 
-	a = remove("Address of the desired file");
+	a = remove("Address of the desired file"); اسم و پسوند فایل را حتما وارد کنید 
 
 	if(a == 0)
 	{
